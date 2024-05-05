@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 flask = "*"
+flask-sqlalchemy = "*"
+pymysql = "*"
+flask-migrate = "*"
 
 [dev-packages]
 autopep8 = "*"
@@ -16,4 +19,4 @@ python_version = "3.10"
 python_full_version = "3.10.5"
 
 [scripts]
-start = "python app/main.py"
+start = "python app/app.py"
